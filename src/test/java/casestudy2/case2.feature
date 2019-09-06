@@ -6,7 +6,7 @@ Scenario Outline: SignIn
     And user Enter "<username>" in the user id field
     And enter "<password>" in the password field
     And click on login
-    Then Homepage is displayed
+   
 
     Examples: 
       | username | password |
