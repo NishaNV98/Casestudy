@@ -39,9 +39,5 @@ public class case2 {
 		 driver.findElement(By.xpath("/html/body/main/div/div/div/form/fieldset/div[4]/div/input[1]")).click();
 	}
 
-	@Then("Homepage is displayed")
-	public void homepage_is_displayed() {
-		 String title=driver.getTitle();
-		  Assert.assertEquals("Home", title);
-	}
+	
 }
