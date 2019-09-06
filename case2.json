@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:12:41.597Z",
+        "line": 13,
+        "name": "SignIn",
+        "description": "",
+        "id": "login;signin;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22506088900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open testmeapp",
+            "match": {
+              "location": "case2.user_open_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8443498400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click signIn button",
+            "match": {
+              "location": "case2.user_click_signIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115107500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter \"Lalitha\" in the user id field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 11
+                }
+              ],
+              "location": "case2.user_Enter_in_the_user_id_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100371300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter \"Password123\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 6
+                }
+              ],
+              "location": "case2.enter_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6599047900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login",
+            "match": {
+              "location": "case2.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7858100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Homepage is displayed",
+            "match": {
+              "location": "case2.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:casestudy2/case2.feature",
+    "tags": []
+  }
+]

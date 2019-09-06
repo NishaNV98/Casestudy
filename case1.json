@@ -1,0 +1,265 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:12:27.998Z",
+        "line": 5,
+        "name": "Register in TestMeApp",
+        "description": "",
+        "id": "registration;register-in-testmeapp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d76.0.3809.132)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027CDC2-D-FPR2RG2\u0027, ip: \u002710.237.17.28\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\\Users\\TRAINI~1.29\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e50706ca394e36933a7f7b8315981445\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat casestudy1.case1.i_want_to_register_in_TestMeApp(case1.java:46)\r\n\tat ✽.I want to register in TestMeApp(classpath:casestudy1/case1.feature:7)\r\n",
+              "duration": 9516929200,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I want to register in TestMeApp",
+            "match": {
+              "location": "case1.i_want_to_register_in_TestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user clicks signup page",
+            "match": {
+              "location": "case1.user_clicks_signup_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enters username \"sandeepr1097\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sandeepr1097\"",
+                  "offset": 21
+                }
+              ],
+              "location": "case1.user_enters_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user enters firstname \"sandeep\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sandeep\"",
+                  "offset": 22
+                }
+              ],
+              "location": "case1.user_enters_firstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8300,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enters lastname \"san\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"san\"",
+                  "offset": 21
+                }
+              ],
+              "location": "case1.user_enters_lastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user enters password \"oneplus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"oneplus\"",
+                  "offset": 21
+                }
+              ],
+              "location": "case1.user_enters_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8800,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user enters confirm password \"oneplus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"oneplus\"",
+                  "offset": 29
+                }
+              ],
+              "location": "case1.user_enters_confirm_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user clicks gender male",
+            "match": {
+              "location": "case1.user_clicks_gender_male()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7700,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user enters email \"sandeepr1097@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sandeepr1097@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "case1.user_enters_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9800,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user enters mobile number \"7358261153\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7358261153\"",
+                  "offset": 26
+                }
+              ],
+              "location": "case1.user_enters_mobile_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7400,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user enters DOB \"09/11/1997\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09/11/1997\"",
+                  "offset": 16
+                }
+              ],
+              "location": "case1.user_enters_DOB(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7200,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user enters address \"11/116,annai satya nagar 3rd street\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11/116,annai satya nagar 3rd street\"",
+                  "offset": 20
+                }
+              ],
+              "location": "case1.user_enters_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19200,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user chooses security question",
+            "match": {
+              "location": "case1.user_chooses_security_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7400,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user enters answer \"rj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rj\"",
+                  "offset": 19
+                }
+              ],
+              "location": "case1.user_enters_answer(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7100,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user clicks the register button",
+            "match": {
+              "location": "case1.user_clicks_the_register_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "classpath:casestudy1/case1.feature",
+    "tags": []
+  }
+]

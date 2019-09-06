@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:14:40.188Z",
+        "line": 23,
+        "name": "add to cart without login",
+        "description": "",
+        "id": "case-4;add-to-cart-without-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37278911800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user in login page",
+            "match": {
+              "location": "case4.user_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139033300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user search prod \"head\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"head\"",
+                  "offset": 17
+                }
+              ],
+              "location": "case4.user_search_prod(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3005743200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click search button",
+            "match": {
+              "location": "case4.user_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5464548400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click add to cart",
+            "match": {
+              "location": "case4.click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14152600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "login page should display",
+            "match": {
+              "location": "case4.login_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "case_4",
+    "description": "",
+    "id": "case-4",
+    "keyword": "Feature",
+    "uri": "classpath:casestudy4/case4.feature",
+    "tags": []
+  }
+]
